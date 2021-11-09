@@ -64,7 +64,7 @@ const Board = () => {
             id: '3',
             type: 'custom',
             data: {
-                label: <BoardNode title={"THEN"}
+                label: <BoardNode className={"node-green"} title={"THEN"}
                   content={<select onChange={boardDataChangeHandler} value={boardData.actionYes} name="actionYes">
                       {actionTypes.map(el => {
                           return <option key={el} value={el}>{el.replaceAll("_", " ")}</option>
@@ -79,7 +79,7 @@ const Board = () => {
             id: '4',
             type: 'custom',
             data: {
-                label: <BoardNode title={"WHAT NEXT"}
+                label: <BoardNode className={"node-green"} title={"WHAT NEXT"}
                   content={<select onChange={boardDataChangeHandler} value={boardData.actionNo} name="actionNo">
                       {actionTypes.map(el => {
                           return <option key={el} value={el}>{el.replaceAll("_", " ")}</option>

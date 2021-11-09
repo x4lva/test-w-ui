@@ -40,4 +40,26 @@
             font-weight: 500;
         }
     }
+
+    &-green {
+        padding: 3px;
+        background-color: #18ab65;
+        border: none #0f5132;
+
+        .node-header {
+            background-color: #0f5132;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .node-content {
+            background-color: #0c4128;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            select {
+                border-color: #18ab65;
+            }
+        }
+    }
 }

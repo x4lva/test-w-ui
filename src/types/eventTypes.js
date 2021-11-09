@@ -1,0 +1,1 @@
+export const eventTypes = ["USER_SUBSCRIBES", "USER_ORDERED"];

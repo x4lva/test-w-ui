@@ -1,0 +1,1 @@
+export const conditionTypes = ["USER_ORDERS", "USER_ABANDONS_CX", "ORDER_COMPLETED"];

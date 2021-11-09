@@ -1,0 +1,43 @@
+.node {
+    width: 250px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9EA5AE;
+    background-color: #F4F6F8;
+    border-radius: 7px;
+
+    .node-header {
+        background-color: #ffffff;
+        width: 100%;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0;
+        color: #9EA5AE;
+    }
+
+    .node-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+
+        select {
+            outline: none;
+            border: 2px solid #9EA5AE;
+            background-color: #ffffff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 18px;
+            width: 90%;
+            height: 40px;
+            color: #000000;
+            font-weight: 500;
+        }
+    }
+}
